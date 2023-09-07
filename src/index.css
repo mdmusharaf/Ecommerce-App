@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-color:  rgb(226 232 240); */
+  background-color: #eef1f1;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Inter", sans-serif; */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
