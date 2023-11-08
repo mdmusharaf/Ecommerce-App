@@ -3,6 +3,8 @@ import { useFormik } from "formik";
 import * as yup from "yup";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import signImage from "../images/Sign in-rafiki.png";
+
 function Register() {
   const nav = useNavigate();
 
@@ -150,7 +152,7 @@ function Register() {
           </div>
         </form>
       <img
-        src="../src/Sign in-rafiki.png"
+        src="{signImage}
         alt=""
         className="w-full h-[550px] rounded-md bg-cover"
       />
