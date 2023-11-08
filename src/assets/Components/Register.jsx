@@ -45,7 +45,7 @@ function Register() {
   });
   return (
     <>
-      <div className="bg-white shadow-md items-center rounded-sm m-8  grid  ">
+      <div className="bg-white shadow-md items-center rounded-sm m-8  grid md:grid-cols-2  ">
         <form onSubmit={formik.handleSubmit} className="mx-10 my-6">
           <h1 className="text-2xl font-semibold text-black">Register Here</h1>
           <div className="pt-6 pb-2">
