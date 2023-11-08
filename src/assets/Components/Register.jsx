@@ -1,4 +1,3 @@
-import Image from "./Image";
 import { RegisterButton } from "./Buttons";
 import { useFormik } from "formik";
 import * as yup from "yup";
@@ -150,7 +149,11 @@ function Register() {
             </Link>
           </div>
         </form>
-{/*         <Image /> */}
+      <img
+        src="../src/Sign in-rafiki.png"
+        alt=""
+        className="w-full h-[550px] rounded-md bg-cover"
+      />
       </div>
     </>
   );
