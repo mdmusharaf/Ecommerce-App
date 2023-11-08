@@ -1,9 +1,9 @@
-import Image from "./Image";
 import { RegisterButton } from "./Buttons";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import signImage from "../images/Sign in-rafiki.png";
 function Register() {
   const nav = useNavigate();
 
@@ -150,7 +150,11 @@ function Register() {
             </Link>
           </div>
         </form>
-        <Image />
+        <img
+          src={signImage}
+          alt=""
+          className="w-full h-[550px] rounded-md bg-cover"
+        />
       </div>
     </>
   );
