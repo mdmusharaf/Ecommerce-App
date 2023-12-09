@@ -33,7 +33,7 @@ function Cards({ count, onClick }) {
     })
     .map((item) => (
       <div
-        className="w-[225px] sm:w-[300px]  bg-white  rounded-md p-6  hover:scale-105 transition-all "
+        className=" bg-white  rounded-md p-6  hover:scale-105 transition-all "
         key={item.id}>
         <Link to={`products/${item.id}`}>
           <img src={item.image} alt="" className="w-full h-60 " />
